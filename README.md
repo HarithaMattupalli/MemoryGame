@@ -4,11 +4,11 @@ The basic idea of the project is to immune the memory power of all people irresp
 
 ## Table of Contents
 
--   [Download the Scratch](#downloadthescratch)
--   [How to Run](#howtorun)
--   [How to Play](#howtoplay)
--   [Game Features](#gamefeatures)
--   [Project Dependencies](#projectdependencies)
+-   [Download the Scratch](#download-the-scratch)
+-   [How to Run](#how-to-run)
+-   [How to Play](#how-to-play)
+-   [Game Features](#game-features)
+-   [Project Dependencies](#project-dependencies)
 -   [Contributing](#contributing)
 
 ## Download the Scratch
