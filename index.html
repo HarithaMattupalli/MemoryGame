@@ -1,0 +1,105 @@
+<!--  //indicates version of HTML used. -->
+<!doctype html>
+<!-- lang attribute of HTML sets the language of an element in HTML.dir attribute of HTML sets  -->
+<html lang="en">
+
+<head>
+  <!-- Meta elements are typically used to specify page description, keywords, author of the document, -->
+  <!-- last modified, and other metadata.Metadata will not be displayed on -->
+  <!-- the page, but will be machine parsable. -->
+  <meta charset="utf-8">
+  <title>Matching Game</title>
+  <meta name="description" content="Memory Matching Game">
+  <meta name="viewport" content="width=device-width" initial-scale=1>
+  <!-- The <link> tag defines a link between a document and an external resource. -->
+  <!-- The <link> tag is used to link to external style sheet -->
+  <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
+  <link rel="stylesheet" href="css/app.css">
+  <!-- The <script> tag is used to define a client-side script (JavaScript).The <script> element
+    either contains scripting statements, or it points to an external script file through the src attribute. -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+
+</head>
+
+<body>
+
+  <!--  The container contains a header,score-panel and deck-->
+  <div class="container">
+    <header>
+      <h1>Matching Game</h1>
+    </header>
+    <!--  The section score-panel contains starrating,moves made and a restart icon-->
+    <section class="score-panel">
+      <span class="stars">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+      </span>
+
+      <span class="moves">00</span> Moves
+      <span> &nbsp &nbsp <span class="mins"> 00 </span> : <span class="secs"> 00 </span> </span>
+      <!-- nbsp : single character space -->
+
+      <div class="restart" onclick="reset()">
+        <i class="fa fa-repeat"></i>
+      </div>
+    </section>
+    <!--  Deck contains cards-->
+    <ul class="deck">
+      <li class="card">
+        <i class="fa fa-diamond"></i>
+      </li>
+      <li class="card">
+        <i class="fa fa-paper-plane-o"></i>
+      </li>
+      <li class="card">
+        <i class="fa fa-anchor"></i>
+      </li>
+      <li class="card">
+        <i class="fa fa-bolt"></i>
+      </li>
+      <li class="card">
+        <i class="fa fa-cube"></i>
+      </li>
+      <li class="card">
+        <i class="fa fa-anchor"></i>
+      </li>
+      <li class="card">
+        <i class="fa fa-leaf"></i>
+      </li>
+      <li class="card">
+        <i class="fa fa-bicycle"></i>
+      </li>
+      <li class="card">
+        <i class="fa fa-diamond"></i>
+      </li>
+      <li class="card">
+        <i class="fa fa-bomb"></i>
+      </li>
+      <li class="card">
+        <i class="fa fa-leaf"></i>
+      </li>
+      <li class="card">
+        <i class="fa fa-bomb"></i>
+      </li>
+      <li class="card">
+        <i class="fa fa-bolt"></i>
+      </li>
+      <li class="card">
+        <i class="fa fa-bicycle"></i>
+      </li>
+      <li class="card">
+        <i class="fa fa-paper-plane-o"></i>
+      </li>
+      <li class="card">
+        <i class="fa fa-cube"></i>
+      </li>
+    </ul>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+
+</html>
