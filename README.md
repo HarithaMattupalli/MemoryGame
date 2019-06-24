@@ -5,8 +5,8 @@ The basic idea of the project is to immune the memory power of all people irresp
 ## Table of Contents
 
 -   [Download the Scratch](#download-the-scratch)
--   [How to Run?](#how-to-run)
--   [How to Play?](#how-to-play)
+-   [How to Run](#how-to-run)
+-   [How to Play](#how-to-play)
 -   [Game Features](#game-features)
 -   [Project Dependencies](#project-dependencies)
 -   [Contributing](#contributing)
@@ -14,7 +14,7 @@ The basic idea of the project is to immune the memory power of all people irresp
 ## Download the Scratch
 
 -   It's not necessary to develop the project from scratch . The basic starter code for HTML,CSS,JS is available in the following links:
-    -   Memory Game project repository on GitHUB: <https://github.com/udacity/fend-project-memory-game>
+    -   Memory Game project repository on GitHUB : <https://github.com/udacity/fend-project-memory-game>
     -   The Zipped File : <https://github.com/udacity/fend-project-memory-game/archive/master.zip>
 -   For completion of the project you need to edit only app.js  file.
 -   Initially I have downloaded the scratch project from GitHub repository and edited app.js based on the game's functionality.
