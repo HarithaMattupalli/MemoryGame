@@ -13,7 +13,7 @@ The basic idea of the project is to immune the memory power of all people irresp
 
 ## Download the Scratch
 
--   It's not necessary to develop the project from scratch. The basic starter code for HTML,CSS,JS is available in the following links:
+-   It's not necessary to develop the project from scratch . The basic starter code for HTML,CSS,JS is available in the following links:
     -   Memory Game project repository on GitHUB: <https://github.com/udacity/fend-project-memory-game>
     -   The Zipped File : <https://github.com/udacity/fend-project-memory-game/archive/master.zip>
 -   For completion of the project you need to edit only app.js  file.
@@ -31,6 +31,7 @@ The basic idea of the project is to immune the memory power of all people irresp
     -   Then the player continues to find out the card with same symbol by clicking on remaining cards.
     -   If corresponding matching symbol card is found the 2 cards freeze.
     -   If not found the cards get flipped down( i.e. same as they were in beginning).
+-   You can have demo of the game [here](https://harithamattupalli.github.io/MemoryGame/)
 
 ## Game Features
 
